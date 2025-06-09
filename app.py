@@ -8,7 +8,7 @@ import base64 # 导入 base64 库用于编码图片
 client = ollama.Client(host='http://localhost:11434')
 
     # 设置页面标题
-st.title("------------广腾AI对话助手------------")
+st.title("------------AI对话助手------------")
 
     # 初始化聊天历史
 if "messages" not in st.session_state:
